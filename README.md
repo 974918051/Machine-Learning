@@ -2,6 +2,10 @@
 
 ## hw1是李宏毅老师的课后作业——天气预测。
 
+### 下面是我做出来的Loss曲线图、预测值和真实值对比图:
+![](./hw1/Loss.svg)
+![](./hw1/compare.svg)
+
 ### 首先说一下做机器学习的过程：
 #### 1. Define function set(Model):
 y = b + w1*(x1+x2+ ... +xi) + w2*(x1+x2+ ... +xi) +  ... + wi*(x1+x2+ ... +xi)
