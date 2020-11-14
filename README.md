@@ -22,4 +22,4 @@ loss = np.sqrt(np.sum(np.power(np.dot(x, w) - y, 2)) / num_of_x), 其中y为真�
 
 
 ###### 参考：https://mrsuncodes.github.io/2020/03/15/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E7%AC%AC%E4%B8%80%E8%AF%BE%E4%BD%9C%E4%B8%9A/#more
-###### 感谢Jack Huang的答疑与指导
+###### 感谢[Jack Huang](https://github.com/HuangJiaLian)的答疑与指导
