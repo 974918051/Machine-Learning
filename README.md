@@ -26,7 +26,7 @@ loss = np.sqrt(np.sum(np.power(np.dot(x, w) - y, 2)) / num_of_x), 其中y为真�
 
 ## hw2为作业二————分别用Logistic Regression model和Generative model解决分类问题。
 
-### 以下分别是训练数据和验证数据的loss值与预测值
+### 以下分别是训练数据和验证数据的loss值与预测值（Logistic Regression model）
 ![](./hw2/loss.png)
 ![](./hw2/acc.png)
 
