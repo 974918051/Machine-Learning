@@ -1,7 +1,3 @@
-# 这里记录了我在机器学习路上的点滴。
-
-## hw1是李宏毅老师的课后作业——天气预测。
-
 ### 下面是我做出来的Loss曲线图、预测值和真实值对比图:
 ![](./hw1/Loss.svg)
 ![](./hw1/compare.svg)
@@ -24,13 +20,13 @@ loss = np.sqrt(np.sum(np.power(np.dot(x, w) - y, 2)) / num_of_x), 其中y为真�
 ###### 参考：https://mrsuncodes.github.io/2020/03/15/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E7%AC%AC%E4%B8%80%E8%AF%BE%E4%BD%9C%E4%B8%9A/#more
 ###### 感谢[Jack Huang](https://github.com/HuangJiaLian)的答疑与指导
 
-## hw2为作业二————分别用Logistic Regression model和Generative model解决分类问题。
+## 下面为分别用Logistic Regression model和Generative model解决分类问题。
 
 ### 以下分别是训练数据和验证数据的loss值与预测值（Logistic Regression model）
 ![](./hw2/loss.png)
 ![](./hw2/acc.png)
 
-与之前不同的是，这次作业先定义了一系列的函数，训练模型的时候直接调用，比起之前方便了许多。
+与之前不同的是，这次项目先定义了一系列的函数，训练模型的时候直接调用，比起之前方便了许多。
 
 #### 还需要注意以下几项：
 * 数据的处理以及标准化
