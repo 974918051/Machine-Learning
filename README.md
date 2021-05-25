@@ -1,3 +1,4 @@
+## PM2.5预测
 ### 下面是我做出来的Loss曲线图、预测值和真实值对比图:
 ![](./hw1/Loss.svg)
 ![](./hw1/compare.svg)
@@ -20,7 +21,8 @@ loss = np.sqrt(np.sum(np.power(np.dot(x, w) - y, 2)) / num_of_x), 其中y为真�
 ###### 参考：https://mrsuncodes.github.io/2020/03/15/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E7%AC%AC%E4%B8%80%E8%AF%BE%E4%BD%9C%E4%B8%9A/#more
 ###### 感谢[Jack Huang](https://github.com/HuangJiaLian)的答疑与指导
 
-## 下面为分别用Logistic Regression model和Generative model解决分类问题。
+## 分类问题
+### 下面为分别用Logistic Regression model和Generative model解决分类问题。
 
 ### 以下分别是训练数据和验证数据的loss值与预测值（Logistic Regression model）
 ![](./hw2/loss.png)
